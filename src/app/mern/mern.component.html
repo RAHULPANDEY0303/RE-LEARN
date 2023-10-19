@@ -1,1 +1,17 @@
-<p>mern works!</p>
+<div class="photo-gallery">
+
+    <div class="container">
+        <div class="row ">
+            <div *ngFor = 'let lst of appList' class="col">
+                <div> <a [href]='lst.url' data-lightbox="photos"><img class="img-fluid" [src]='lst.url' style="padding:1rem;width:500px;height: 200px;"></a>
+                </div>
+                <div style= "padding-left:1rem ;">
+                    <strong>{{lst.Name}}</strong><br>
+                    {{lst.Master}}
+                    <br><br>
+                </div>
+                </div>
+        </div>
+    </div>
+    
+</div>

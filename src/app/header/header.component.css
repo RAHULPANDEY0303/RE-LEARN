@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(230, 230, 253);
+}
 header{
     color:black;
     text-align: center;
@@ -6,7 +9,7 @@ header{
     height: 1000px;
 }
 .imgs{
-    border-radius: 50px;
+    border-radius: 25px;
 }
 .head{
     text-align: left;

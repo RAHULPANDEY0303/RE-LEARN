@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./mern.component.css']
 })
 export class MernComponent {
-
+  appList: any[] = [{
+    "ID": "1",
+    "url": './assets/images/one.png',
+    "Name": 'Neha Pandey',
+    "Master": 'Quality Assurance'
+  },
+];
 }
