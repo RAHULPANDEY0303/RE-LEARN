@@ -18,6 +18,8 @@ import { MeanComponent } from './mean/mean.component';
 import { MernComponent } from './mern/mern.component';
 import { JavaComponent } from './java/java.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { RestUsersComponent } from './rest-users/rest-users.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,13 +35,15 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactComponent,
     MeanComponent,
     MernComponent,
-    JavaComponent
+    JavaComponent,
+    RestUsersComponent
   ],
   imports: [
     BrowserModule,
     routes,
     AppRoutingModule,
-    FormsModule,ReactiveFormsModule
+    FormsModule,ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
